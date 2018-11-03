@@ -1,0 +1,27 @@
+.footer .container .row .p {
+            font-weight:bold;
+        }
+        .d11 a{
+            color: black;
+            text-decoration: none;
+        }
+        .d11{
+            position:fixed;
+            bottom: 0%;
+            width: 100%;
+        }
+        @media screen and (min-width: 992px){
+            .d11{
+                display: none;
+            }
+        }
+        @media screen and (max-width:991px) and (min-width: 768px){
+            .p2{
+                display:none;
+            }
+        }
+        @media screen and (max-width:767px){
+            .p2{
+                display:none;
+            }
+        }

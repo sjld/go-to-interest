@@ -1,0 +1,16 @@
+#header{
+    background: #fff;
+}
+    .container .pic1{
+        width:153px;
+        height:51px;
+    }
+    .container>nav>ul{
+        margin-left: -80px;
+    }
+    .container nav ul li a{
+        color: #6c757d;
+    }
+    .container nav ul li a:hover{
+        color: #000000;
+    }

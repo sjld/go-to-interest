@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #F7F7F7;
+}
+@media screen and (min-width: 992px){
+    .content .row span{
+        display: none;
+    }
+    .content .row .p{
+        display:-webkit-box;
+        -webkit-box-orient:vertical;
+        -webkit-line-clamp:1;
+        overflow:hidden;
+        margin-top: 15px;
+        width: 18rem;
+    }
+    .d7{
+        display: none;
+    }
+    .d11{
+        display: none;
+    }
+}
+@media screen and (max-width:991px) and (min-width: 768px){
+    .d2{
+        display: none;
+    }
+    .d3>.container>.row>.col-4>p{
+        display: none;
+    }
+    button{
+        width:100%;
+    }
+    .content .row span{
+        float:left;
+    }
+    .content .row p{
+        text-align: left;
+    }
+    .d5{
+        display: none;
+    }
+    .title{
+        display: none;
+    }
+    .d7{
+        display: block;
+    }
+    .p2{
+        display:none;
+    }
+}
+@media screen and (max-width:767px){
+    .d2{
+        display: none;
+    }
+    .d3>.container>.row>.col-4>p{
+        display: none;
+    }
+    .d3>.container>.row>.col-4>.img{
+        display: none;
+    }
+    .content .row span{
+        float:left;
+    }
+    .content .row p{
+        text-align: left;
+    }
+    .d5{
+        display: none;
+    }
+    button{
+        width:100%;
+    }
+    .p2{
+        display:none;
+    }
+    .title{
+        display: none;
+    }
+}
+.container .pic1{
+    width:153px;
+    height:51px;
+}
+.container>nav>ul{
+    margin-left: -80px;
+}
+.container nav ul li a{
+    color: #6c757d;
+}
+.container nav ul li a:hover{
+    color: #000000;
+}
+.my_small{font-size: 0.8rem;}
+.d3>.container>.row>.col-4{
+    position: relative;
+    top:0;
+}
+.d3>.container>.row>.col-4:hover{
+    position:relative;
+    top:-15px;
+    transition:all 0.3s linear;
+}
+.content .row span{
+    color: #FF572D;
+}
+.navbar .btn1{
+    background: #EAEAEA;
+    border:1px solid gray ;
+    height:45px;
+}
+.s{
+    font-size: 13px;
+    display: block;
+    border:1px solid #000;
+    width:150px;
+    height:40px;
+    line-height: 40px;
+    margin: 0 auto;
+   text-align: center;
+    transition: all 0.3s linear;
+}
+.s:hover{
+    color: white;
+    background: #FF7626;
+    border:1px solid #FF7626;
+
+}
+.d6{
+    background-image: url(../img/bg333.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: 0 50%;
+}
+.footer .container .row .p {
+    font-weight:bold;
+}
+.d7{
+    height:50px;
+    text-align: center;
+    background: linear-gradient(to right,#C6DFEF,#4FA5D5);
+}
+.d7>span{
+    background: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 14px 40px;
+    line-height: 50px;
+    color:#609BB6;
+    font-weight: bold;
+}
+.d10>button{
+    position: relative;
+    top:0;
+    transition: all 0.3s linear;
+    border:0;
+
+}
+.d10>button:hover{
+    position: relative;
+    top:-10px;
+    box-shadow:0 0 20px black;
+}
+.d11 a{
+    color: black;
+    text-decoration: none;
+}
+.d11{
+    position:fixed;
+    bottom: 0%;
+    width: 100%;
+}
+.cebianlan{
+    position:fixed;
+    right:0;
+    top:40%;
+    width:54px;
+    height:162px;
+    background:#666666;
+    z-index: 999;
+}
+.cebianlan>ul>li{
+    width:54px;
+    height:54px;
+    cursor: pointer;
+}
+.cebianlan>ul>.li1>div i{
+    background:url("../img1/pic.png");
+    background-position: 100% 378px;
+    height: 30px;
+    margin: 12px;
+    width: 30px;
+    display: inline-block;
+}
+.cebianlan>ul>.li2>div>i{
+    background:url("../img1/pic.png");
+    background-position: 100% 305px;
+    height: 30px;
+    margin: 12px;
+    width: 30px;
+    display: inline-block;
+}
+.cebianlan>ul>.li3>div>i{
+    background:url("../img1/pic.png");
+    background-position: 100% -264px;
+    height: 30px;
+    margin: 12px;
+    width: 30px;
+    display: inline-block;
+}
+.hh{
+    position:relative;
+    height:54px;
+    width:155px;
+}
+.lele{
+    display:inline-block;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left:-100px;
+    width:155px;
+    height:54px;
+    background: #FF7626;
+    
+}
+.LELE{
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top:14px;
+    left:55px;
+}
+.active{
+    background: #FF7626;
+}
+.cebianlan>ul>li:hover{
+    background: #FF7626;
+    transition:all 0.5s;
+}
+.hide{
+    display:none;
+}
