@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=divice-width,initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>Title</title>
+    <style>
+        body{
+            background: #F7F7F7;
+        }
+        .my_small{
+            font-size: 0.9rem;
+        }
+
+
+        @media screen and (min-width: 992px){
+            .row  .span1,.row .span2{
+                background: #FF7526;
+                display: block;
+                width:100%;
+                border: 1px solid #FF7526;
+                border-radius: 5px;
+                line-height: 32px;
+                height:32px;
+                text-align: center;
+            }
+            .row .span2{
+                background: #FFFFFF;
+                border: 1px solid #FF7526 ;
+            }
+        }
+
+        @media screen and (max-width: 991px)and (min-width: 768px){
+            .row  .span1,.row .span2{
+                background: #FF7526;
+                border: 1px solid #FF7526;
+                border-radius: 5px;
+                line-height: 32px;
+                height:32px;
+                text-align: center;
+                padding: 5px 15px;
+            }
+            .row .span2{
+                background: #FFFFFF;
+                border: 1px solid #FF7526 ;
+            }
+            .d110>form{
+                width:75%;
+                margin: 0 auto;
+            }
+        }
+
+        @media screen and (max-width: 767px){
+            .row  .span1,.row .span2{
+                background: #FF7526;
+                border: 1px solid #FF7526;
+                border-radius: 5px;
+                line-height: 32px;
+                height:32px;
+                text-align: center;
+                padding: 5px 15px;
+            }
+
+            .row .span2{
+                background: #FFFFFF;
+                border: 1px solid #FF7526 ;
+            }
+            .d110>form{
+                width:100%;
+                margin: 0 auto;
+            }
+        }
+    </style>
+</head>
+<body>
+<header id="header">
+</header>
+<div>
+    <div class="container">
+    <div class="row">
+        <div class="col-lg-4 col-sm-12"></div>
+            <div class="col-lg-4 col-sm-12 p-4 border bg-white">
+                <div class="w-100 pb-3  d110">
+                    <form action="">
+                        <h4 class="text-center pt-3">登录/注册</h4>
+                        <p class="text-muted my_small m-0 mt-4">用户名或邮箱</p>
+                        <input type="text" class="form-control mb-3"/>
+                        <p class="my_small text-muted m-0">密码</p>
+                        <input type="password" class="form-control"/><br>
+                        <input type="checkbox" class="mt-0"/><span class="my_small text-muted">记住我（请在私人计算机上使用此功能）</span>
+                        <hr>
+                        <span class="span1 w-100">登录</span>
+                        <span class="span2 w-100 mt-2">注册</span>
+                        <p class="my_small text-muted mt-1">第三方账号登录：</p>
+                        <p class="my_small text-muted float-right">忘记密码？点这里找回</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-12"></div>
+    </div>
+</div>
+<script src="js/header.js"></script>
+<script src="js/footer.js"></script>
+<footer id="footer">
+    
+</footer>
+</body>
+</html>
